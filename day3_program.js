@@ -1,4 +1,4 @@
-let sentence="I am a boy and my name is Soubhagya"
+let sentence="I am a boy and my name is Soubhagya Gautam"
 sentence=sentence.toLowerCase()
 let a=0,e=0,i=0,o=0,u=0
 for(let j in sentence)//using for in loop (or) for(let char of sentence )
