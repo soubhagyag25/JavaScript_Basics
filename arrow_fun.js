@@ -1,6 +1,5 @@
 //ARROW FUNCTION
 //In This program,we will use arrow function in different ways and try to understand the concepts
-//Day 2, Program 4
 let sum=()=>{console.log("Hello")} //1.Simplest use
 let sum1=()=>console.log("Hello") //2.In Single line codes,the arrow f() will also work without {}
 let sum2=(name)=>console.log("Hello " +name)//3.taking argument name
