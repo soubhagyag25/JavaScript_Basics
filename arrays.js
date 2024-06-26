@@ -1,3 +1,4 @@
+//compare method
 let compare=(a,b)=> a-b //ascending order
 let array=[343,45,2,765,26,98,245,20]
 console.log(array.sort())// 1s>2s>3s>like that..it will not sort the array.
@@ -10,7 +11,7 @@ console.log(array.reverse())//reverse f()
 // New Function:splice(from_index,to_index,replacement1,replacement_n)
 let arr=[1,2,3,4,5,6]
 console.log("Elements in old array1 are "+arr)
-let arr1=arr.splice(0,3,)//splice will delete the elements from index 0 to 3 and will return the elements from index 0 to 3(index 3 is not included)
+let arr1=arr.splice(0,3)//splice will delete the elements from index 0 to 3 and will return the elements from index 0 to 3(index 3 is not included)
 console.log("Deleted elements are "+arr1)
 console.log("Array1 becomes "+arr)
 let arr2=[11,12,13,14,15,16]
@@ -48,5 +49,3 @@ console.log(new_array)
 let array3=[26,55,68,43,33]
 let array4=arr5.concat(array3,arr6)
 console.log(array4)
-//Methods that modify the array:
-//1.push 2.pop 3.splice 4.shift 5.unshift 6.reverse
